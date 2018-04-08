@@ -464,7 +464,7 @@ ThrowHammer:
 	li r5, 0
 	bl PlayPlayerSound
 	
-	li r3, 0x73			# Hammer
+	li r3, 0x6C			# Hammer
 	li r4, 0				# Settings
 	addi r5, sp, 0x2C		# Position
 	li r6, 0				# Rotation
